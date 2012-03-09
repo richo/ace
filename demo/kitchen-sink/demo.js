@@ -120,6 +120,7 @@ var modes = [
     new Mode("python", "Python", require("ace/mode/python").Mode, ["py"]),
     new Mode("scala", "Scala", require("ace/mode/scala").Mode, ["scala"]),
     new Mode("scss", "SCSS", require("ace/mode/scss").Mode, ["scss"]),
+    new Mode("sh", "SH", require("ace/mode/scss").Mode, ["sh"]),
     new Mode("ruby", "Ruby", require("ace/mode/ruby").Mode, ["rb"]),
     new Mode("sql", "SQL", require("ace/mode/sql").Mode, ["sql"]),
     new Mode("svg", "SVG", require("ace/mode/SVG").Mode, ["svg"]),
